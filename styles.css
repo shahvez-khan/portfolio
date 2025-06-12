@@ -51,9 +51,11 @@ body {
     padding: 0.5rem 1rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .menu-list .menu-list-items {
-        padding: 0.5rem 0.3rem;
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
