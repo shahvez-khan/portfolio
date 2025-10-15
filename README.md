@@ -3,7 +3,7 @@
 
 This is my personal portfolio website built with HTML, CSS, and JavaScript. It showcases my skills, projects, and contact information in a clean and responsive layout.
 
-🔗 **Live Website**: [https://lordgrimripper.github.io/project/](https://lordgrimripper.github.io/project/)
+🔗 **Live Website**: [ https://shahvez-khan.github.io/project/]( https://shahvez-khan.github.io/project/)
 
 ---
 
