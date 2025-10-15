@@ -1,134 +1,127 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/jpg" href="portfolio.jpg">
-    <title>My Portfolio</title>
+    <title>Shahvez - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     
-</head> 
+</head>
 <body>
     <header>
-        <div id="box1">
-        </div>
          <nav class ="navbar">
             <div class="navdiv">
-            <div class="logo"><a href="#">Shahvez</a> 
-            </div>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+                <div class="logo"><a href="#">S.R. Khan</a></div>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
             </div>
         </nav>
     </header>
     
-
     <main>
-        <br><br><br><br><br>
-        <section id="Home">
-            <a target="_blank" >
-            <img src="about.jpg" alt="Image",width="300" height="200" id="profile-image">
-        <div style="margin-top: 50px;">
-        <h2 style="margin: 0; font-size: 24px;">Hello, I'm</h2>
-         <h1 style="margin: 5px 0; font-size: 48px; font-weight: bold; color: #007bff;">Shahvez</h1>
-        <p style="margin: 0; font-size: 20px; color: #444;">An aspiring Software and Web Developer.</p>
-        </div>
-     <br><br><br>
-        <a href="CV.pdf" target="_blank" >
-        <button class="btn">Get Resume </button>
-        <a href="mailto:your@email.com">
-        <button class="btn">Hire Me</button>
-        </a>
+        <section id="Home" class="hero-section">
+            <div class="hero-text">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Shahvez</h1>
+                <p class="title">An aspiring Software and Web Developer.</p>
+                <div class="button-group">
+                    <a href="CV.pdf" target="_blank" class="btn primary-btn">Get Resume</a>
+                    <a href="mailto:your@email.com" class="btn secondary-btn">Hire Me</a>
+                </div>
+            </div>
+            <img src="about.jpg" alt="Profile Image" id="profile-image">
         </section> 
-        <br><br><br><br><br><br><br><br>
 
         <section id="projects">
-        <h2 style="font-size: 36px; text-align: center;"> <strong> Featured Portfolio</strong></h2>  
-        <div class="gallery">
-            <a target="_blank" >
-            <img src="Web Dev.jpg" alt="Web Development",width="300" height="200">
-            </a>
-            <div class="Description">
-            <p>Web development is the process of creating websites and web applications. It involves a combination of programming, design, and content management to build functional and visually appealing online platforms.</p>
-        </div>
-        </div>
-        <div class="gallery">
-            <a target="_blank" >
-            <img src="Web Design.jpg" alt="Web Designing",width="300" height="200">
-            </a>
-            <div class="Description">
-            <p>Web design is the art of creating visually appealing and user-friendly websites. It involves layout, color schemes, typography, and graphics to enhance the overall user experience.</p>
-        </div>
-        </div>
-         <div class="gallery">
-            <a target="_blank" >
-            <img src="DSA.jpeg" alt="Data Structure And Algorithm",width="300" height="200">
-            </a>
-            <div class="Description">
-            <p>Data Structures and Algorithms (DSA) are fundamental concepts in computer science. They involve organizing and manipulating data efficiently to solve problems and optimize performance in software development.</p>
-        </div>
-        </div>
+            <h2>Featured Portfolio</h2>
+            <div class="gallery-container">
+                <div class="gallery">
+                    <a target="_blank">
+                        <img src="Web Dev.jpg" alt="Web Development">
+                    </a>
+                    <div class="description">
+                        <h3>Web Development</h3>
+                        <p>Web development is the process of creating websites and web applications. It involves a combination of programming, design, and content management to build functional and visually appealing online platforms.</p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank">
+                        <img src="Web Design.jpg" alt="Web Designing">
+                    </a>
+                    <div class="description">
+                        <h3>Web Designing</h3>
+                        <p>Web design is the art of creating visually appealing and user-friendly websites. It involves layout, color schemes, typography, and graphics to enhance the overall user experience.</p>
+                    </div>
+                </div>
+                <div class="gallery">
+                    <a target="_blank">
+                        <img src="DSA.jpeg" alt="Data Structure And Algorithm">
+                    </a>
+                    <div class="description">
+                        <h3>Data Structures & Algorithms</h3>
+                        <p>Data Structures and Algorithms (DSA) are fundamental concepts in computer science. They involve organizing and manipulating data efficiently to solve problems and optimize performance in software development.</p>
+                    </div>
+                </div>
+            </div>
         </section>  
-        <br><br><br><br><br><br><br><br><br><br>
-        <section id="about">
-        <div class = about>
-        <h1 style="font-size: 36px; text-align: center; font-weight: bold;">About Me</h1>
-          <p>Hello! I'm <strong>Shahvez Rahman Khan</strong>, a passionate Computer Science student at SRM University with a strong interest in full-stack web development. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.</p>
-          
-          <p>I am currently an intern at <strong>Soft Nexis Technology</strong>, where I'm building real-world projects to sharpen my frontend and backend development skills. My goal is to become a proficient full-stack developer and contribute to impactful tech solutions.</p>
-          
-          <p>When I'm not coding, you can find me exploring tech videos, learning new frameworks, or sharing college tips on my YouTube channel <a href="https://www.youtube.com/@My_Journey_888" target="_blank">@My_Journey_888</a>.</p>
+        
+        <section id="about" class="about-section">
+            <div class="content-wrapper">
+                <h1>About Me</h1>
+                <p>Hello! I'm <strong>Shahvez Rahman Khan</strong>, a passionate Computer Science student at SRM University with a strong interest in full-stack web development. I enjoy turning complex problems into simple, beautiful, and intuitive solutions.</p>
+                
+                <p>My core philosophy centers on **continuous learning and iterative improvement**. I believe that the best code is both elegant and efficient. I spend significant time working on personal side projects, allowing me to explore new frameworks and architectural patterns independently. My goal is to leverage my analytical skills and development passion to build impactful, scalable software.</p>
+                
+                <p>I thrive on challenges and am constantly looking for opportunities to contribute to projects that require creative problem-solving and a strong technical foundation.</p>
 
-          <h3>Skills</h3>
-          <ul>
-            <li>HTML5, CSS3, JavaScript</li>
-            <li>React.js, Node.js (basics)</li>
-            <li>Git & GitHub</li>
-            <li>Responsive Design & Media Queries</li>
-          </ul>
-          </div>
+                <h3>Core Skills</h3>
+                <ul class="skills-list">
+                    <li>HTML5, CSS3, JavaScript</li>
+                    <li>React.js, Node.js (basics)</li>
+                    <li>Git & GitHub</li>
+                    <li>**RESTful API Design**</li>
+                    <li>**Database Management (SQL/NoSQL)**</li>
+                </ul>
+            </div>
         </section>
-         <br><br><br><br><br><br><br><br><br><br>
-    <section id="contact">
-    <div class="container">
-      <h1 style="font-size: 36px; text-align: center; font-weight: bold;">Contact Me</h1>
-      <p>If you'd like to work together or have any questions, feel free to reach out!</p>
 
-      <form class="contact-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Your name" required />
-        <br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="xyz@gmail.com" required />
-        <br>
-        <label for="message">Message:</label>
-        <br>
-        <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
-        <br>
-        <button type="submit">Send Message</button>
-      </form>
-
-      <div class="social-links">
-        <h3>Connect with me:</h3>
-        <a href="https://github.com/your-username" target="_blank">GitHub</a> |
-        <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
-        <a href="mailto:your@email.com">Email</a>
-      </div>
-    </div>
-  </section>
-
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>If you'd like to work together or have any questions, feel free to reach out!</p>
+    
+                <form class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required />
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="xyz@gmail.com" required />
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                    
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+    
+                <div class="social-links">
+                    <h3>Connect with me:</h3>
+                    <a href="https://github.com/shahvez-khan" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/shahvez-rahman-khan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a> |
+                    <a href="mailto:shahvezrahmankhan786@gmail.com">Email</a>
+                </div>
+            </div>
+        </section>
             
     </main>        
 
     <footer>
-        <hr>
-        <br>
-        <p id="p1">&copy; 2025 All rights reserved | This portfolio website template is created by Shahvez</p>
+        <p>&copy; 2025 All rights reserved | Template by Shahvez Rahman Khan</p>
     </footer>
 </body>
-</html>    
+</html>
